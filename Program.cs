@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Multiplicación del primer y último dígito del ID: {Multiply(2, 7)}");
+            Console.WriteLine($"División del primer y último dígito del ID: {Divide(2, 7)}");
         }
 
         static int Add(int x, int y)
@@ -15,6 +15,10 @@
         static int Multiply(int x, int y)
         {
             return x * y;
+        }
+        static int Divide(int x, int y)
+        {
+            return x / y;
         }
     }
 }
