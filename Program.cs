@@ -26,7 +26,7 @@
         {
             if (y == 0)
             {
-                Console.WriteLine("Error: División por cero no permitida.");
+                Console.WriteLine($"Error: División por cero no permitida. Los valores introducidos son {x} y {y}");
             }
             return x / y;
         }
